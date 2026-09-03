@@ -2,7 +2,7 @@
 
 **TauScreen** é um gravador de tela gratuito para Windows, desenvolvido com foco em simplicidade, praticidade e controle durante a gravação.
 
-Ele permite gravar a tela, áudio e webcam, fazer capturas de tela, desenhar sobre a gravação, recuperar gravações temporárias e gerenciar tudo através de uma interface simples.
+Com ele é possível gravar a tela de diferentes formas, capturar áudio do computador, microfone e webcam, tirar screenshots, fazer anotações e desenhos sobre a tela, utilizar zoom durante a apresentação, organizar gravações e recuperar arquivos temporários.
 
 ---
 
@@ -10,263 +10,227 @@ Ele permite gravar a tela, áudio e webcam, fazer capturas de tela, desenhar sob
 
 ### 🎥 Gravação de tela
 
-Grave o conteúdo da tela do Windows de forma simples e direta.
+O TauScreen permite gravar o conteúdo da tela do Windows de forma simples e flexível.
 
-O TauScreen foi pensado para usos como:
+Pode ser utilizado para:
 
-* tutoriais;
-* aulas;
-* apresentações;
-* gameplays;
-* demonstrações de programas;
-* gravação de erros e bugs;
-* suporte técnico;
-* criação de conteúdo.
+- tutoriais;
+- aulas;
+- apresentações;
+- gameplays;
+- demonstrações de programas;
+- gravação de erros e bugs;
+- suporte técnico;
+- criação de conteúdo;
+- reuniões e apresentações.
+
+Durante a configuração da gravação, você pode escolher o que deseja capturar e quais fontes deseja utilizar.
 
 ---
 
-## 🔊 Gravação de áudio
+## 🔊 Áudio
 
-O TauScreen permite trabalhar com áudio durante a gravação, incluindo suporte a dispositivos de entrada e áudio utilizado na captura.
+O TauScreen permite gravar:
 
-Você pode utilizar, por exemplo:
+- áudio do computador;
+- microfone;
+- as duas fontes ao mesmo tempo.
 
-* microfone;
-* áudio do computador;
-* dispositivos disponíveis no Windows.
+Os dispositivos disponíveis podem ser selecionados antes de iniciar a gravação.
+
+### 🎧 Headsets Bluetooth
+
+Alguns headsets Bluetooth podem alterar o modo de reprodução do Windows quando o microfone do próprio fone é ativado.
+
+Quando o TauScreen identifica uma situação desse tipo, ele pode avisar antes de iniciar a gravação e oferecer opções como:
+
+- escolher outro microfone;
+- gravar sem microfone;
+- continuar usando o dispositivo selecionado.
 
 ---
 
 ## 📷 Webcam
 
-A webcam pode ser adicionada à gravação.
+A webcam pode ser utilizada junto com a gravação da tela.
 
-Antes mesmo de começar a gravar, é possível configurar:
+Antes de gravar, é possível configurar:
 
-* câmera utilizada;
-* posição;
-* rotação;
-* espelhamento.
+- câmera utilizada;
+- posição;
+- rotação;
+- espelhamento.
 
-### Rotação
+A câmera pode ser girada em `0°`, `90°`, `180°` e `270°`.
 
-A webcam pode ser girada em:
+O preview adapta automaticamente a proporção quando necessário e respeita diferentes formatos de webcam, como `16:9`, `4:3` e outras proporções.
 
-```text
-0°
-90°
-180°
-270°
-```
-
-Quando a câmera é girada para `90°` ou `270°`, o preview ajusta automaticamente sua proporção para o formato vertical.
-
-O TauScreen respeita a proporção original da câmera, incluindo webcams:
-
-```text
-16:9
-4:3
-e outras proporções
-```
-
-### Espelhamento
-
-A webcam também pode ser espelhada horizontalmente.
-
-Isso é útil principalmente para webcams frontais, deixando a imagem com comportamento semelhante ao de um espelho.
+A imagem também pode ser espelhada horizontalmente.
 
 ---
 
 ## 🪟 Mini janela da webcam
 
-Durante a gravação, a webcam pode aparecer em uma pequena janela flutuante.
+Durante a gravação, a webcam pode ser exibida em uma pequena janela flutuante.
 
-Essa janela:
+Essa janela pode:
 
-* pode ser movida pela tela;
-* mantém a proporção correta da câmera;
-* acompanha a rotação;
-* permite girar a câmera;
-* permite espelhar a câmera;
-* pode ser minimizada para a barra de tarefas do Windows.
+- ser movimentada pela tela;
+- acompanhar a rotação da câmera;
+- espelhar a imagem;
+- manter a proporção correta;
+- ser minimizada para a barra de tarefas.
 
-A janela de preview é separada da composição final da webcam, evitando duplicação acidental no vídeo.
+A janela de preview é independente da webcam adicionada ao vídeo final.
 
 ---
 
 ## ⏺️ Barra compacta de gravação
 
-Durante a gravação, o TauScreen utiliza a `WinRecordingMini`, uma pequena barra flutuante para controlar a sessão.
+Durante uma gravação, o TauScreen disponibiliza uma pequena barra flutuante com acesso rápido às principais ferramentas.
 
-Ela possui controles rápidos para:
+Ela permite:
 
-* pausar;
-* continuar;
-* tirar print;
-* abrir as ferramentas de anotação;
-* finalizar a gravação;
-* minimizar para a barra de tarefas.
+- pausar;
+- continuar;
+- tirar uma captura de tela;
+- abrir as ferramentas de anotação;
+- finalizar a gravação;
+- minimizar a barra.
 
-O relógio da gravação permanece visível na própria barra.
+O tempo da gravação também permanece visível.
 
 ---
 
-## 📸 Captura de tela
+## 📸 Capturas de tela
 
-O TauScreen possui uma ferramenta integrada para capturas de tela.
+O TauScreen possui uma ferramenta integrada para screenshots.
 
-### Print de área
-
-Ao utilizar o botão de captura:
+Ao utilizar a captura de área:
 
 1. a ferramenta de seleção é aberta;
-2. você arrasta o mouse sobre a região desejada;
-3. a área selecionada é salva como imagem.
+2. você seleciona a região desejada;
+3. a imagem é salva automaticamente.
 
-As capturas recebem nomes automáticos, por exemplo:
-
-```text
-TauScreen_Captura_2026-08-30_14-32-18_125.png
-```
-
-As imagens também podem aparecer no Histórico do TauScreen.
+As capturas também ficam disponíveis no Histórico.
 
 ---
 
 ## ✏️ Quadro de anotações
 
-Durante uma gravação, é possível abrir o quadro de anotações.
+Durante uma gravação é possível abrir o quadro de anotações.
 
-Ele reúne ferramentas para auxiliar apresentações, explicações e tutoriais.
+Ele pode ser utilizado para:
+
+- escrever lembretes;
+- auxiliar apresentações;
+- destacar informações;
+- acompanhar pontos importantes durante uma explicação.
+
+O quadro também dá acesso à ferramenta de desenho livre.
 
 ---
 
 ## ✏️ Desenho livre sobre a tela
 
-Dentro do quadro de anotações existe a ferramenta de **Desenho livre na tela**.
+O modo **Desenho livre** permite fazer marcações diretamente sobre qualquer programa enquanto a gravação continua.
 
-Quando ativada:
+É possível:
 
-* o quadro de anotações é ocultado;
-* você pode desenhar diretamente sobre a tela;
-* os traços aparecem durante a gravação;
-* a cor selecionada no quadro é utilizada pelo lápis.
+- desenhar sobre a tela;
+- escolher a cor;
+- apagar traços;
+- desfazer;
+- limpar os desenhos;
+- liberar o mouse sem remover as marcações.
 
-### Atalho
+### Atalhos do desenho livre
 
-```text
-Ctrl + Shift + D
-```
-
-Durante o modo de desenho livre, esse atalho encerra o modo de desenho.
-
-Os rascunhos ficam ocultos ao sair do modo livre, mas não são obrigatoriamente apagados.
+- `Tab` — alterna entre desenho e mouse livre;
+- segure `Esc` — ativa temporariamente a borracha;
+- `Ctrl + Z` — desfaz o último traço;
+- `Delete` — limpa os desenhos;
+- `Ctrl + Shift + D` — acessa o sistema de anotações e, quando o desenho livre está ativo, encerra o modo livre e retorna ao quadro.
 
 ---
 
-## 🧽 Borracha rápida
+## 🔎 Zoom da tela
 
-Durante o desenho livre:
+O TauScreen possui um modo de zoom temporário para destacar partes importantes da tela durante a gravação.
 
-```text
-Segure Ctrl
-```
+### Controles
 
-O lápis é temporariamente transformado em uma borracha.
+- `Ctrl + clique no botão do meio do mouse` — ativa o zoom;
+- `Scroll para cima` — aproxima;
+- `Scroll para baixo` — afasta;
+- solte `Ctrl` — encerra o zoom e retorna à visualização normal.
 
-A borracha funciona por traço:
+---
 
-* encoste em um risco;
-* o traço inteiro é removido;
-* solte `Ctrl`;
-* o lápis volta automaticamente.
+## ⌨️ Teclas de atalho
 
-Também estão disponíveis:
+No menu principal existe o botão **Teclas de atalho**.
 
-```text
-Ctrl + Z
-```
+Ele abre uma janela própria com os comandos disponíveis no TauScreen, organizados por categoria, como:
 
-para desfazer o último traço.
-
-E:
-
-```text
-Delete
-```
-
-para limpar os desenhos.
+- desenho livre;
+- zoom da tela;
+- captura de tela;
+- ferramentas relacionadas à gravação.
 
 ---
 
 ## 🗂️ Histórico
 
-O TauScreen possui um Histórico integrado para facilitar o acesso às gravações e capturas recentes.
+O Histórico do TauScreen é dividido em áreas específicas:
 
-No Histórico é possível:
+- **Gravações**;
+- **Capturas**;
+- **Arquivos temporários**.
 
-* visualizar gravações;
-* visualizar prints;
-* abrir um arquivo;
-* abrir sua localização no Windows;
-* remover uma entrada apenas do Histórico;
-* excluir o arquivo real do computador;
-* selecionar vários itens;
-* selecionar tudo;
-* excluir vários arquivos;
-* remover vários itens do Histórico.
+### 🎥 Gravações
 
-A exclusão de arquivos solicita confirmação antes de apagar dados do disco.
+É possível:
 
----
+- visualizar vídeos;
+- reproduzir e pausar;
+- abrir arquivos;
+- abrir sua localização no Windows;
+- remover apenas do Histórico;
+- excluir o arquivo do computador;
+- selecionar vários itens;
+- executar ações em lote.
 
-## ▶️ Preview no Histórico
+### 🖼️ Galeria de capturas
 
-O Histórico possui um painel de visualização ao lado da lista.
+As capturas possuem uma área própria no Histórico.
 
-### Imagens
+O modo **Galeria** apresenta miniaturas maiores para facilitar a visualização.
 
-Capturas de tela são exibidas diretamente no preview.
+Também existe o modo **Detalhes**, que mostra informações como:
 
-### Vídeos
+- nome;
+- data;
+- tamanho;
+- caminho do arquivo.
 
-Vídeos podem ser reproduzidos dentro do próprio Histórico.
-
-O preview oferece controles para:
-
-* reproduzir;
-* pausar;
-* continuar;
-* abrir o arquivo.
-
-Isso permite verificar rapidamente uma gravação antes de decidir o que fazer com ela.
+É possível alternar entre Galeria e Detalhes sem perder a seleção dos arquivos.
 
 ---
 
-## ♻️ Recuperação de gravações temporárias
+## ♻️ Arquivos temporários
 
-O TauScreen mantém um sistema de arquivos temporários para ajudar a recuperar gravações que não chegaram ao processo normal de salvamento.
+O TauScreen mantém uma área específica para gravações temporárias.
 
-No Histórico existe uma área específica:
+Em **Histórico → Arquivos temporários** é possível:
 
-```text
-Arquivos temporários
-```
-
-Ela permite:
-
-* visualizar sessões temporárias;
-* selecionar uma sessão;
-* selecionar várias sessões;
-* selecionar tudo;
-* visualizar informações da sessão;
-* visualizar preview quando disponível;
-* recuperar arquivos;
-* excluir arquivos temporários.
-
----
-
-## 💾 Recuperar temporários
+- visualizar sessões;
+- selecionar uma ou várias sessões;
+- selecionar tudo;
+- visualizar informações;
+- acessar previews quando disponíveis;
+- recuperar arquivos;
+- excluir temporários.
 
 Os arquivos recuperados são enviados para:
 
@@ -274,136 +238,143 @@ Os arquivos recuperados são enviados para:
 Vídeos\TauScreen\Recuperados
 ```
 
-Quando possível, o TauScreen tenta reconstruir automaticamente o vídeo utilizando os arquivos disponíveis da sessão.
-
-Se algum componente estiver incompleto, o programa tenta preservar o material recuperável em vez de simplesmente descartar toda a gravação.
+Ao cancelar o salvamento de uma gravação, o TauScreen pergunta se os arquivos temporários devem ser mantidos para recuperação posterior ou excluídos.
 
 ---
 
-## 🗑️ Controle dos temporários
+## 🎬 Preview antes de salvar
 
-Quando o salvamento de uma gravação é cancelado, o TauScreen pergunta se o usuário deseja manter os arquivos temporários.
+Ao finalizar uma gravação, o TauScreen abre uma tela de pré-visualização.
 
-Você pode escolher:
+Nela é possível:
 
-### Manter
-
-A sessão permanece disponível no Histórico para recuperação posterior.
-
-### Excluir
-
-Os arquivos temporários daquela gravação são descartados.
-
-Isso evita ocupar espaço em disco com gravações que você não deseja manter.
+- assistir ao vídeo;
+- reproduzir;
+- pausar;
+- reiniciar;
+- avançar ou voltar pela gravação;
+- verificar a webcam;
+- configurar o resultado antes do salvamento.
 
 ---
 
-## 🛡️ Recuperação de webcam
+## 🔊 Ajuste de volume antes de salvar
 
-O TauScreen utiliza um formato temporário preparado para reduzir problemas caso uma gravação da webcam seja interrompida antes da finalização normal.
+Quando a gravação utiliza áudio do sistema e microfone, é possível ajustar separadamente os volumes antes de gerar o vídeo final.
 
-Arquivos inválidos são verificados antes de serem utilizados.
+Existem controles para:
 
-Se uma webcam temporária estiver corrompida, o TauScreen evita interromper completamente o salvamento da gravação principal.
+- áudio do sistema;
+- microfone.
+
+A prévia de áudio pode ser atualizada para verificar o equilíbrio antes do salvamento definitivo.
 
 ---
 
-## 📝 Nomes automáticos
+## 💾 Formas de salvar
 
-As gravações recebem nomes organizados automaticamente.
+O TauScreen permite escolher como os componentes da gravação serão armazenados.
 
-Exemplo:
+É possível trabalhar com diferentes combinações entre:
+
+- vídeo;
+- áudio do computador;
+- microfone;
+- webcam.
+
+No modo **Tudo junto**, o programa gera o vídeo final combinado.
+
+Também existe uma opção para manter os áudios originais separadamente, por exemplo:
 
 ```text
-TauScreen_Gravacao_2026-08-30_14-32-18.mp4
+MinhaGravacao.mp4
+MinhaGravacao_Audio_PC.wav
+MinhaGravacao_Microfone.wav
 ```
 
-Capturas de tela:
+A webcam também pode ser integrada ao vídeo ou mantida separadamente, dependendo da configuração escolhida.
 
-```text
-TauScreen_Captura_2026-08-30_14-32-18_125.png
-```
+---
 
-Isso facilita a organização por data e horário.
+## 🚀 Inicialização e FFmpeg
+
+Ao iniciar, o TauScreen exibe uma tela de abertura enquanto prepara o programa.
+
+Durante esse processo ele verifica automaticamente se o FFmpeg necessário está disponível.
+
+Se o FFmpeg ainda não estiver preparado, o próprio TauScreen executa automaticamente o instalador incluído na distribuição e, depois da instalação, realiza uma nova verificação antes de abrir o menu principal.
+
+**Não é necessário executar manualmente `INSTALAR_FFMPEG_LGPL.bat`.**
+
+É possível iniciar o programa diretamente pelo `TauScreen.exe` ou utilizar `INICIAR_TAUSCREEN.bat`, que apenas abre o TauScreen.
+
+Na primeira preparação do FFmpeg é necessária conexão com a internet.
 
 ---
 
 # Como instalar
 
-O TauScreen não precisa de um instalador tradicional.
+## 1. Baixe
 
-### 1. Baixe a versão mais recente
+Acesse a área de **Releases** deste repositório e baixe a versão mais recente.
 
-Acesse a área de **Releases** deste repositório.
+## 2. Extraia
 
-Baixe o arquivo `.zip` da versão desejada.
-
-### 2. Extraia o arquivo
-
-Não execute o TauScreen diretamente de dentro do ZIP.
+Não execute o programa diretamente de dentro do ZIP.
 
 Extraia todo o conteúdo para uma pasta.
 
-### 3. Execute
+## 3. Execute
 
 Abra:
+
+```text
+TauScreen.exe
+```
+
+ou:
 
 ```text
 INICIAR_TAUSCREEN.bat
 ```
 
-Na primeira execução, o TauScreen poderá preparar automaticamente os componentes necessários.
+O próprio TauScreen fará a verificação do FFmpeg durante a inicialização.
 
 ---
 
 # Requisitos
 
-* Windows 64 bits;
-* espaço livre para armazenar as gravações;
-* microfone, caso deseje gravar sua voz;
-* webcam, caso deseje utilizar captura de câmera;
-* conexão com a internet durante a configuração inicial de componentes, quando necessária.
+- Windows 64 bits;
+- .NET 8 Desktop Runtime;
+- espaço livre para armazenar gravações;
+- microfone, caso queira gravar sua voz;
+- webcam, caso queira utilizar câmera;
+- conexão com a internet na primeira configuração do FFmpeg, quando necessária.
 
 ---
 
 # FFmpeg
 
-O TauScreen utiliza o **FFmpeg** como ferramenta externa para processamento e codificação de mídia.
+O TauScreen utiliza o **FFmpeg** como ferramenta externa para processamento de mídia.
 
-O FFmpeg não é incorporado diretamente ao código do TauScreen.
-
-Quando necessário, o programa utiliza uma versão compatível preparada para o funcionamento do sistema de gravação.
+Quando necessário, sua disponibilidade é verificada durante a inicialização e o TauScreen pode preparar automaticamente uma versão compatível.
 
 Projeto oficial:
 
 https://ffmpeg.org/
 
-As informações referentes às bibliotecas e componentes de terceiros utilizados pelo TauScreen estão disponíveis na distribuição.
-
 ---
 
 # Licenças de terceiros
 
-A versão distribuída do TauScreen contém uma pasta:
+A distribuição do TauScreen contém a documentação de componentes de terceiros, incluindo quando aplicável:
 
-```text
-Licencas/
-```
+- FFmpeg;
+- NAudio;
+- MaterialDesignInXamlToolkit;
+- Material Design Icons.
 
-e o arquivo:
-
-```text
-THIRD_PARTY_NOTICES.txt
-```
-
-Esses arquivos documentam componentes de terceiros utilizados pelo programa, incluindo quando aplicável:
-
-* FFmpeg;
-* NAudio;
-* MaterialDesignInXamlToolkit;
-* Material Design Icons.
-
-Cada projeto permanece sujeito à sua respectiva licença.
+Cada componente permanece sujeito à sua respectiva licença.
 
 ---
 
@@ -411,19 +382,14 @@ Cada projeto permanece sujeito à sua respectiva licença.
 
 Antes de uma gravação importante, recomenda-se:
 
-* verificar o dispositivo de áudio;
-* verificar a webcam;
-* conferir o espaço livre em disco;
-* fazer uma pequena gravação de teste;
-* não encerrar o TauScreen à força durante o salvamento.
+- conferir o dispositivo de áudio;
+- verificar o microfone;
+- verificar a webcam;
+- conferir o espaço disponível em disco;
+- fazer uma gravação curta de teste;
+- evitar fechar o TauScreen à força durante o salvamento.
 
-Caso uma gravação seja interrompida, consulte:
-
-```text
-Histórico → Arquivos temporários
-```
-
-antes de apagar os arquivos temporários.
+Se uma gravação for interrompida, consulte **Histórico → Arquivos temporários** antes de excluir os temporários.
 
 ---
 
@@ -431,10 +397,10 @@ antes de apagar os arquivos temporários.
 
 Sugestões, relatórios de problemas e melhorias podem ser enviados através da área de **Issues** do repositório.
 
-Pull Requests também podem ser utilizados para contribuir com o desenvolvimento quando habilitados no projeto.
+Pull Requests também podem ser utilizados quando estiverem habilitados no projeto.
 
 ---
 
 # TauScreen
 
-**Gravação de tela, áudio, webcam, capturas e anotações em uma ferramenta simples para Windows.**
+**Grave a tela, áudio e webcam. Faça capturas, anotações, desenhos, zoom e mantenha suas gravações organizadas em uma ferramenta simples para Windows.**
